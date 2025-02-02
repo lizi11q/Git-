@@ -47,3 +47,15 @@ git rm [file name]
 git mv [文件名] [文件夹名]
 //文件重命名
 git mv [文件旧名] [文件新名]
+
+//回到某次提交
+git reset --mixed [commit ID]
+//需要强制推送
+git push -f
+
+//discard
+//rollback文件（撤销对该文件的修改）
+git restore [文件名]
+
+//显示详细信息
+git show [commit ID]
