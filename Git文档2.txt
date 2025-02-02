@@ -38,3 +38,7 @@ git pull --rebase//没有merge
 git config pull.rebase true
 
 //powershell 进入分页器页面时，按q退出
+
+//删除文件并
+//告诉仓库该文件不需要被管理
+git rm [file name] 
