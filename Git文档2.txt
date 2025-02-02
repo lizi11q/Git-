@@ -11,3 +11,16 @@ cd [path]
 
 //查看git状态
 git status
+
+git add .
+git commit -m"[commit massage]"
+
+//推送到远程仓库
+git push
+//当你创建一个新分支或克隆仓库时，本地分支可能没有与远程分支关联。Git 要求你在推送之前明确指定远程分支，以便建立关联
+git push --set-upstream origin main
+//或者自动设置上游分支
+git config --global push.autoSetupRemote true
+
+//将文件从暂存区中取出
+git restore --staged [file name]
