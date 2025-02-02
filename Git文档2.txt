@@ -42,3 +42,8 @@ git config pull.rebase true
 //删除文件并
 //告诉仓库该文件不需要被管理
 git rm [file name] 
+
+//将文件移动到文件夹
+git mv [文件名] [文件夹名]
+//文件重命名
+git mv [文件旧名] [文件新名]
