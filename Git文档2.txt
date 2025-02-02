@@ -1,0 +1,13 @@
+//进入powershell
+win+X //弹出菜单中选择powershell
+
+//查看git
+git --version
+
+git clone [address]
+
+//进入文件夹
+cd [path]
+
+//查看git状态
+git status
