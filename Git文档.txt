@@ -25,6 +25,7 @@ git branch
 创建分支develop
 git checkout -b develop
 
+//在远端仓库修改代码
 将develop内容并入到main
 git add .
 git commit -m “备注内容”
