@@ -28,4 +28,13 @@ git restore --staged [file name]
 //远端有更新
 //拉取到远端更新
 git pull
+<<<<<<< HEAD
 git pull = git fetch + git merge
+=======
+git pull --rebase//没有merge
+>>>>>>> dc6d1c7 (3)
+
+//在使用git pull时，默认使用git pull --rebase
+git config pull.rebase true
+
+//powershell 进入分页器页面时，按q退出
