@@ -30,5 +30,3 @@ git add .
 git commit -m “备注内容”
 git checkout main      //切换到main分支
 git merge develop      //将develop合并到main分支
-
-//在远端仓库修改代码
