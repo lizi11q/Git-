@@ -1,0 +1,32 @@
+用户信息
+安装完 Git 之后，要做的第一件事就是设置你的用户名和邮件地址。 这一点很重要，因为每一个 Git 提交都会使用这些信息，它们会写入到你的每一次提交中，不可更改：
+$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
+
+git clon [项目地址]
+git init
+
+将修改内容添加到暂存区(打包)
+git add [文件名.拓展名]
+git add .
+
+放入仓库（commit）
+git commit -m “备注内容”
+
+查看节点
+git log
+
+查看节点修改内容
+git diff [id]
+
+查看分支(main develop)
+git branch
+
+创建分支develop
+git checkout -b develop
+
+将develop内容并入到main
+git add .
+git commit -m “备注内容”
+git checkout main      //切换到main分支
+git merge develop      //将develop合并到main分支
