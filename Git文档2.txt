@@ -28,3 +28,4 @@ git restore --staged [file name]
 //远端有更新
 //拉取到远端更新
 git pull
+git pull = git fetch + git merge
