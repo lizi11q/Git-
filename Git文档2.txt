@@ -25,5 +25,6 @@ git config --global push.autoSetupRemote true
 //将文件从暂存区中取出
 git restore --staged [file name]
 
+//远端有更新
 //拉取到远端更新
 git pull
